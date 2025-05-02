@@ -3,7 +3,7 @@
 This repository contains my work for the [Spaceship Titanic](https://www.kaggle.com/competitions/spaceship-titanic) classification competition on Kaggle.
 
 ##  Result
-- Final Ranking: 145th out of 2,223 teams (Private Leaderboard, April 30, 2025)
+- Final Ranking: 145th out of 2,223 teams (Leaderboard, April 30, 2025)
 - Model: stacking (LightGBM + XGBoost + CatBoost)
 - Evaluation Metric: Accuracy
 
