@@ -16,8 +16,8 @@ The task was to predict whether passengers were transported to another dimension
 - Ensemble methods for improved performance
 
 ##  Files
-- `notebooks/final_model.ipynb`: Clean and final model
-- `notebooks/experiments/`: Trial-and-error during development
+- `notebooks/SpaceshipTitanic.ipynb`: Clean and final model
+
 
 ##  Note
 This competition was useful to practice classification, feature engineering, and model ensembling.
