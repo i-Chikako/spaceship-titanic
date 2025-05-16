@@ -5,7 +5,7 @@
 
 ## 🏆 結果
 - 最終順位：2,140チーム中 144位（リーダーボード、2025年5月14日時点）
-- 使用モデル：スタッキング（LightGBM + XGBoost + CatBoost）
+- 使用モデル：スタッキング（LGBMClassifier + XGBoost + CatBoost）
 - 評価指標：Accuracy（正解率）
 - 最終スコア：0.80710
 
