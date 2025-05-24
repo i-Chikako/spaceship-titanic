@@ -4,8 +4,8 @@
 (https://www.kaggle.com/competitions/spaceship-titanic)
 
 ## 🏆 結果
-- 最終順位：2,140チーム中 144位（リーダーボード、2025年5月14日時点）
-- 使用モデル：スタッキング（LGBMClassifier + XGBoost + CatBoost）
+- 最終順位：2,050チーム中 156位　上位8％（リーダーボード、2025年5月24日時点）
+- 使用モデル：スタッキング（ベースモデル：LGBMClassifier + XGBoost + CatBoost　メタモデル：LogisticRegression）
 - 評価指標：Accuracy（正解率）
 - 最終スコア：0.80710
 
@@ -34,38 +34,3 @@
 このコンペティションでは、分類問題の実践・特徴量エンジニアリング・スタッキングの練習として非常に有意義でした。
 今回、スタッキングすることにより予測精度が上がることを学びました。
 今後ほかのモデルや特徴量エンジニアリングの方法についての知識を増やしていきたいと思います。
-
-# Spaceship Titanic - Kaggle Competition
-
-This repository contains my work for the [Spaceship Titanic](https://www.kaggle.com/competitions/spaceship-titanic) classification competition on Kaggle.
-
-##  Result
-- Final Ranking: 144th out of 2,140 teams (Leaderboard, April 30, 2025)
-- Model: stacking (LightGBM + XGBoost + CatBoost)
-- Evaluation Metric: Accuracy
-
-##  Overview
-The task was to predict whether passengers were transported to another dimension during a spaceship incident, based on features like age, home planet, and spending data.
-
-##  Environment
-- Python 3.10
-- Jupyter Notebook
-- scikit-learn 1.6.1
-- XGBoost 3.0.0
-- LightGBM 4.6.0
-- CatBoost 1.2.8
-- pandas 2.2.2
-- numpy  1.26.4
-
-##  Approach
-- Feature engineering (handling missing values, combining features)
-- Model training with cross-validation
-- Ensemble methods for improved performance
-
-##  Files
-- `notebooks/SpaceshipTitanic.ipynb`: Clean and final model
-
-
-##  Note
-This competition was useful to practice classification, feature engineering, and model ensembling.
-
